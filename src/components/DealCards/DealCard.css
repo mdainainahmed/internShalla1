@@ -1,0 +1,67 @@
+#dealCards {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 5px;
+  height: 425px;
+  width: 333px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #FFFFFF;
+  font-weight: 300;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.dealImage{
+    width: 141px;
+    height: 103px;
+}
+.offers{
+    gap: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: #074786;
+    border-radius: 10px;
+}
+.offerPriceTime{
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #F2F4F7;
+}
+#dealCards .heading{
+    color: #626E79;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1rem;
+}
+#dealCards .description{
+    font-size: 1rem;
+    color: #626E79;
+}
+.price{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2px;
+}
+.offer-price{
+    color: #5C6874;
+    font-size: 20px;
+    font-weight: bold;
+}
+.real-price{
+    color: #9FA9B3;
+    font-size: 14px;
+}
+.offer-percent{
+    font-size: 13px;
+    color: #EF4C5D;
+}
